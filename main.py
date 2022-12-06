@@ -58,7 +58,7 @@ while True:
         cv2.drawContours(mask,cnt,-1,255,3)
         break
 
-    cv2.imshow('frame',vid)
+    #cv2.imshow('frame',vid)
     cv2.imshow('BGS',bgs)
 
 
